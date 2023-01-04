@@ -1,4 +1,5 @@
-import ProfilePic from '../components/ProfilePic'
+import ProfilePic from '../components/ProfilePic';
+import DetailsCard from '../components/DetailsCard';
 
 
 function Home() {
@@ -7,9 +8,9 @@ function Home() {
             <div>
                 <ProfilePic />
             </div>
-            <h1 className="text-5xl font-bold underline text-white flex justify-center pt-16">
-                Hello world!
-            </h1>
+            <div>   
+                <DetailsCard />
+            </div>
         </div>
     )
 }
