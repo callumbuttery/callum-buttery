@@ -9,15 +9,17 @@ export default function DetailsCard() {
                 <p class="text-gray-700 flex justify-center text-2xl mt-10">
                     I'm Callum Buttery, a Software Engineer from sunny Scotland.
                 </p>
-                <p class="text-gray-700 justify-center text-2xl mt-5">
-                    When I'm not wearing a Kilt or chasing the Loch Ness Monster, you can find me in some of Scotland's most beautiful locations with my Camera.
-                </p>
+                <div className='flex'>
+                    <p class="w-5/6 mx-auto text-gray-700 text-center text-2xl mt-5">
+                        When I'm not wearing a Kilt or chasing the Loch Ness Monster, or whatever it is Scottish people do, you can find me out with my Camera, in the gym, or with my head in a book or some form of Javascript.
+                    </p>
+                </div>
 
                 <div className="flex justify-center mt-10">
                     <a href='https://www.linkedin.com/in/callumbuttery/' rel="noreferrer" target='_blank'><Icon path={mdiLinkedin}
-                        size={1.5} color='#0077b5' className="mr-5"/></a>
+                        size={1.5} color='#0077b5' className="mr-5" /></a>
                     <a href='https://github.com/callumbuttery' rel="noreferrer" target='_blank'><Icon path={mdiGithub}
-                        size={1.5} color='#171515'/></a>
+                        size={1.5} color='#171515' /></a>
                 </div>
             </div>
         </div>
