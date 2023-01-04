@@ -3,7 +3,7 @@ import Icon from '@mdi/react';
 
 export default function DetailsCard() {
     return (
-        <div class="w-2/6 mx-auto mt-16 shadow-lg flex justify-center bg-white drop-shadow-3xl rounded-2xl" data-aos="fade-up" data-aos-delay="700">
+        <div class="w-2/6 mx-auto mt-16 shadow-lg flex justify-center bg-white drop-shadow-3xl rounded-2xl" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
             <div class="px-6 py-4">
                 <div class="font-bold text-5xl mb-2 flex justify-center">Howdy!</div>
                 <p class="text-gray-700 flex justify-center text-2xl mt-10">
