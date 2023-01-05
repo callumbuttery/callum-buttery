@@ -6,13 +6,13 @@ export default function NavBar() {
                     <div className="flex mx-auto justify-center w-full">
                         <ul className="pt-7 flex p-4 mt-4 md:flex-row md:space-x-20 md:mt-0 md:text-sm md:font-medium ">
                             <li>
-                                <a href="#" className="text-lg block py-2 pl-5 pr-5 text-white hover:text-[#ffd60a] hover:bg-[#ffd60a] md:hover:bg-transparent md:p-0" aria-current="page">About</a>
+                                <a href="#" className="text-lg block py-2 pl-3 pr-3 text-white hover:text-[#ffd60a] tracking-[.15em] font-header hover:bg-[#ffd60a] md:hover:bg-transparent md:p-0" aria-current="page">About</a>
                             </li>
                             <li>
-                                <a href="#" className="text-lg block py-2 pl-5 pr-5 text-white hover:text-[#ffd60a] hover:bg-[#ffd60a] md:hover:bg-transparent md:p-0">Projects</a>
+                                <a href="#" className="text-lg block py-2 pl-3 pr-3 text-white hover:text-[#ffd60a] tracking-[.15em] font-header hover:bg-[#ffd60a] md:hover:bg-transparent md:p-0">Projects</a>
                             </li>
                             <li>
-                                <a href="#" className="text-lg block py-2 pl-5 pr-5 text-white hover:text-[#ffd60a] hover:bg-[#ffd60a] md:hover:bg-transparent md:p-0">CV</a>
+                                <a href="#" className="text-lg block py-2 pl-3 pr-3 text-white hover:text-[#ffd60a] tracking-[.15em] font-header hover:bg-[#ffd60a] md:hover:bg-transparent md:p-0">CV</a>
                             </li>
                         </ul>
                     </div>
