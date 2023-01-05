@@ -1,6 +1,6 @@
 export default function NavBar() {
     return (
-        <div>
+        <div data-aos="fade-down" data-aos-duration="2000" data-aos-delay="">
             <nav className="bg-transparent h-24 px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b border-transparent">
                 <div className="container flex flex-wrap items-center justify-between mx-auto">
                     <div className="flex mx-auto justify-center w-full">
@@ -9,7 +9,7 @@ export default function NavBar() {
                                 <a href="#" className="text-lg block py-2 pl-5 pr-5 text-white hover:text-[#ffd60a] hover:bg-[#ffd60a] md:hover:bg-transparent md:p-0" aria-current="page">About</a>
                             </li>
                             <li>
-                                <a href="#" className="text-xl block py-2 pl-5 pr-5 text-white hover:text-[#ffd60a] hover:bg-[#ffd60a] md:hover:bg-transparent md:p-0">Projects</a>
+                                <a href="#" className="text-lg block py-2 pl-5 pr-5 text-white hover:text-[#ffd60a] hover:bg-[#ffd60a] md:hover:bg-transparent md:p-0">Projects</a>
                             </li>
                             <li>
                                 <a href="#" className="text-lg block py-2 pl-5 pr-5 text-white hover:text-[#ffd60a] hover:bg-[#ffd60a] md:hover:bg-transparent md:p-0">CV</a>
