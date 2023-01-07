@@ -1,5 +1,3 @@
-import ProfilePic from '../components/ProfilePic';
-import DetailsCard from '../components/DetailsCard';
 import WelcomeText from '../components/WelcomeText';
 
 function Home() {
