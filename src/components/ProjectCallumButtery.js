@@ -9,7 +9,7 @@ export default function ProjectCallumButtery() {
         <div className="max-sm:h-96 max-sm:mb-32 hover:scale-110 hover:duration-300">
             <div className="flex justify-center mr-10 ml-10" data-aos="flip-left" data-aos-duration="1700" data-aos-delay="0">
                 <div className="rounded-lg bg-white max-w-sm drop-shadow-4xl">
-                    <a href="https://www.callumbuttery.dev" rel='noreferrer' target='blank'>
+                    <a rel='noreferrer' target='blank'>
                         <img class="rounded-t-lg h-52" src={callumdev} alt="" />
                     </a>
                     <div class="p-6">
@@ -22,7 +22,7 @@ export default function ProjectCallumButtery() {
                             <TailwindTag/>
                             <JavaScriptTag/>
                         </div>
-                        <a href="https://www.callumbuttery.dev" rel='noreferrer' target='blank' type="button" className="inline-block px-6 py-2.5 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded">View</a>
+                        <a rel='noreferrer' target='blank' type="button" className="inline-block px-6 py-2.5 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded">View</a>
                     </div>
                 </div>
             </div>
