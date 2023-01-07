@@ -22,7 +22,7 @@ export default function ProjectButteryPhotography() {
                             <VuetifyTag/>
                             <JavaScriptTag/>
                         </div>
-                        <a href="https://www.butteryphotography.co.uk" rel='noreferrer' target='blank' type="button" className="inline-block px-6 py-2.5 bg-cyan-500 text-white font-medium text-xs leading-tight uppercase rounded">View</a>
+                        <a href="https://www.butteryphotography.co.uk" rel='noreferrer' target='blank' type="button" className="inline-block px-6 py-2.5 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded">View</a>
                     </div>
                 </div>
             </div>
