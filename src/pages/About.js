@@ -1,7 +1,6 @@
 export default function About() {
     return (
-        <div>
-           this is an about page
+        <div className='h-screen pt-60 place-items-center bg-gradient-to-b from-[#00a0c2] via-[#c48f95] to-[#e46230] max-sm:h-full'>
         </div>
     )
 }
