@@ -6,8 +6,8 @@ import BootstrapTag from './tag/BootstrapTag'
 
 export default function ProjectDoodleNoodles() {
     return (
-        <div className="max-sm:h-96 max-sm:mb-32 hover:scale-110 hover:duration-300 motion-reduce">
-            <div className="flex justify-center mr-10 ml-10" data-aos="flip-left" data-aos-duration="1700" data-aos-delay="1000">
+        <div className="max-sm:h-96 max-sm:mb-32 hover:scale-110 hover:duration-300">
+            <div className="flex justify-center mr-10 ml-10" data-aos="flip-left" data-aos-duration="1700" data-aos-delay="1000" data-aos-once='true'>
                 <div className="rounded-lg bg-white max-w-sm drop-shadow-4xl">
                     <a href="https://www.doodlenoodles.io" rel='noreferrer' target='blank'>
                         <img class="rounded-t-lg h-52" src={OneTreePlanted} alt="" />
