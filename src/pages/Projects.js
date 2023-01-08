@@ -23,8 +23,8 @@ export default function Projects() {
             </div>
 
             <div className="pt-52">
-                <h2 data-aos="fade-down" data-aos-duration="2000" className="flex justify-center text-center text-5xl tracking-[.35em] text-white font-header font-bold w-4/6 mx-auto max-sm:text-3xl max-sm:tracking-[.1em]">
-                    TECH
+                <h2 data-aos="fade-down" data-aos-duration="2000" className="flex justify-center text-center text-5xl tracking-[.25em] text-white font-header font-bold w-4/6 mx-auto max-sm:text-3xl max-sm:tracking-[.1em]">
+                    TECH EXPOSURE
                 </h2>
 
                 <div className="place-items-center pt-16 pb-32 max-w-fit flex-wrap mx-auto flex justify-center max-sm:inline-block">
