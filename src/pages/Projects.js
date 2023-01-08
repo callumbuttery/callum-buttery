@@ -2,16 +2,40 @@ import ProjectDoodleNoodles from "../components/ProjectDoodleNoodles"
 import ProjectButteryPhotography from "../components/ProjectButteryPhotography"
 import ProjectCallumButtery from "../components/ProjectCallumButtery"
 
+import JS from '../images/javascript.png'
+import React from '../images/react.png'
+import vue from '../images/vue.png'
+import node from '../images/node.png'
+import tailwind from '../images/tailwind.png'
+import mongodb from '../images/mongodb.png'
+import aws from '../images/aws.png'
+
 export default function Projects() {
     return (
-        <div className='h-screen pt-60 place-items-center bg-gradient-to-b from-[#00a0c2] via-[#c48f95] to-[#e06f43] max-sm:h-full'>
-            <div data-aos="fade-down" data-aos-duration="2000" data-aos-delay="700" className="flex justify-center text-center text-4xl tracking-[.15em] text-white font-header font-bold w-4/6 mx-auto max-sm:text-3xl max-sm:tracking-[.1em]">
+        <div className='h-full pt-60 place-items-center bg-gradient-to-b from-[#00a0c2] via-[#c48f95] to-[#e06f43] max-sm:h-full'>
+            <h2 data-aos="fade-down" data-aos-duration="2000" data-aos-delay="700" className="flex justify-center text-center text-4xl tracking-[.35em] text-white font-header font-bold w-4/6 mx-auto max-sm:text-3xl max-sm:tracking-[.1em]">
                 PROJECTS
-            </div>
+            </h2>
             <div className="place-items-center pt-16 flex justify-center max-sm:inline-block">
                 <ProjectCallumButtery />
                 <ProjectButteryPhotography />
                 <ProjectDoodleNoodles />
+            </div>
+
+            <div className="pt-52">
+                <h2 data-aos="fade-down" data-aos-duration="2000" className="flex justify-center text-center text-5xl tracking-[.35em] text-white font-header font-bold w-4/6 mx-auto max-sm:text-3xl max-sm:tracking-[.1em]">
+                    TECH
+                </h2>
+
+                <div className="place-items-center pt-16 pb-32 max-w-fit flex-wrap mx-auto flex justify-center max-sm:inline-block">
+                    <img class="object-contain h-48 w-96 ml-10 mt-10 drop-shadow-4xl" src={JS} />
+                    <img class="object-contain h-48 w-96 ml-10 mt-10 drop-shadow-4xl" src={vue} />
+                    <img class="animate-spin-slow object-contain h-48 w-96 ml-10 mt-10 drop-shadow-4xl" src={React} />
+                    <img class="object-contain h-48 w-96 ml-10 mt-20 drop-shadow-4xl" src={node} />
+                    <img class="object-contain h-32 w-72 ml-10 mt-20 drop-shadow-4xl" src={tailwind} />
+                    <img class="object-contain h-48 w-96 ml-10 mt-20 drop-shadow-4xl" src={mongodb} />
+                    <img class="object-contain h-48 w-96 ml-10 mt-20 drop-shadow-4xl" src={aws} />
+                </div>
             </div>
         </div>
     )
