@@ -24,8 +24,8 @@ export default function Projects() {
                 <ProjectDoodleNoodles />
             </div>
 
-            <div className="flex justify-center pt-24">
-                <Icon className="animate-bounce w-16 h-16" color='#fff' path={mdiArrowDownCircleOutline} />
+            <div className="flex justify-center pt-28" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="2500">
+                <Icon className="animate-pulse w-10 h-10" color='#fff' path={mdiArrowDownCircleOutline} />
             </div>
 
 
