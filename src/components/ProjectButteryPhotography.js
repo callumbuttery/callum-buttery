@@ -13,7 +13,7 @@ export default function ProjectButteryPhotography() {
                         <img class="rounded-t-lg h-52" src={butteryphotography} alt="" />
                     </a>
                     <div class="p-6">
-                        <h5 className="text-gray-900 text-xl font-medium mb-2">Buttery Photography</h5>
+                        <h5 className="text-gray-900 text-xl font-medium mb-2">www.butteryphotography.co.uk</h5>
                         <p className="text-gray-700 text-base mb-4">
                             A site for my Freelance Wedding Photography business
                         </p>
