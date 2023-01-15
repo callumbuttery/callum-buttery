@@ -1,6 +1,8 @@
 import ProjectDoodleNoodles from "../components/ProjectDoodleNoodles"
 import ProjectButteryPhotography from "../components/ProjectButteryPhotography"
 import ProjectCallumButtery from "../components/ProjectCallumButtery"
+import { mdiArrowDownCircleOutline } from '@mdi/js';
+import Icon from '@mdi/react';
 
 import JS from '../images/javascript.png'
 import React from '../images/react.png'
@@ -12,7 +14,7 @@ import aws from '../images/aws.png'
 
 export default function Projects() {
     return (
-        <div className='h-full pt-60 place-items-center bg-gradient-to-b from-[#00a0c2] via-[#c48f95] to-[#e06f43] max-sm:h-full'>
+        <div className='h-full pt-48 place-items-center bg-gradient-to-b from-[#00a0c2] via-[#c48f95] to-[#e06f43] max-sm:h-full'>
             <h2 data-aos="fade-down" data-aos-duration="2000" data-aos-delay="700" className="flex justify-center text-center text-4xl tracking-[.35em] text-white font-header font-bold w-4/6 mx-auto max-sm:text-3xl max-sm:tracking-[.1em]">
                 PROJECTS
             </h2>
@@ -22,7 +24,12 @@ export default function Projects() {
                 <ProjectDoodleNoodles />
             </div>
 
-            <div className="pt-72">
+            <div className="flex justify-center pt-24">
+                <Icon className="animate-bounce w-16 h-16" color='#fff' path={mdiArrowDownCircleOutline} />
+            </div>
+
+
+            <div className="pt-52">
                 <h2 data-aos="fade-down" data-aos-duration="2000" className="flex justify-center text-center text-5xl tracking-[.25em] text-white font-header font-bold w-4/6 mx-auto max-sm:text-3xl max-sm:tracking-[.1em]">
                     TECH EXPOSURE
                 </h2>
