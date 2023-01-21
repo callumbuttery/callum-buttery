@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 function App() {
 
   useEffect(() => {
-    AOS.init();
+    setTimeout(function () { AOS.init(); }, 1000);
   }, [])
 
   return (
