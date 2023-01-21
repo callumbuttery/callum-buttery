@@ -10,9 +10,9 @@ export default function ProjectCallumButtery() {
             <div className="flex justify-center mr-10 ml-10" data-aos="flip-left" data-aos-duration="1700" data-aos-delay="0" data-aos-once='true'>
                 <div className="rounded-lg bg-white max-w-sm drop-shadow-4xl max-sm:w-72">
                     <a rel='noreferrer' target='blank'>
-                        <img class="rounded-t-lg h-52" src={callumdev} alt="" />
+                        <img className="rounded-t-lg h-52" src={callumdev} alt="" />
                     </a>
-                    <div class="p-6">
+                    <div className="p-6">
                         <h5 className="text-gray-900 text-xl font-medium mb-2">www.callumbuttery.dev</h5>
                         <p className="text-gray-700 text-base mb-4">
                             The very site you are on! All things about my career and my hobbies!

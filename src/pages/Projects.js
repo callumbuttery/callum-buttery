@@ -1,8 +1,7 @@
 import ProjectDoodleNoodles from "../components/ProjectDoodleNoodles"
 import ProjectButteryPhotography from "../components/ProjectButteryPhotography"
 import ProjectCallumButtery from "../components/ProjectCallumButtery"
-import { mdiArrowDownCircleOutline } from '@mdi/js';
-import Icon from '@mdi/react';
+import ScrollAnimator from "../components/scrollAnimator"
 
 import JS from '../images/javascript.png'
 import React from '../images/react.png'
@@ -24,9 +23,7 @@ export default function Projects() {
                 <ProjectDoodleNoodles />
             </div>
 
-            <div className="flex justify-center pt-28" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="2500">
-                <Icon className="animate-pulse w-10 h-10" color='#fff' path={mdiArrowDownCircleOutline} />
-            </div>
+            <ScrollAnimator/>
 
 
             <div className="pt-52">
@@ -35,13 +32,13 @@ export default function Projects() {
                 </h2>
 
                 <div className="place-items-center pt-16 pb-32 max-w-fit flex-wrap mx-auto flex justify-center max-sm:inline-block">
-                    <img class="object-contain h-48 w-96 ml-10 mt-10 drop-shadow-4xl" src={JS} />
-                    <img class="object-contain h-48 w-96 ml-10 mt-10 drop-shadow-4xl" src={vue} />
-                    <img class="animate-spin-slow object-contain h-48 w-96 ml-10 mt-10 drop-shadow-4xl" src={React} />
-                    <img class="object-contain h-48 w-96 ml-10 mt-20 drop-shadow-4xl" src={node} />
-                    <img class="object-contain h-32 w-72 ml-10 mt-20 drop-shadow-4xl" src={tailwind} />
-                    <img class="object-contain h-48 w-96 ml-10 mt-20 drop-shadow-4xl" src={mongodb} />
-                    <img class="object-contain h-48 w-96 ml-10 mt-20 drop-shadow-4xl" src={aws} />
+                    <img className="object-contain h-48 w-96 ml-10 mt-10 drop-shadow-4xl" src={JS} />
+                    <img className="object-contain h-48 w-96 ml-10 mt-10 drop-shadow-4xl" src={vue} />
+                    <img className="animate-spin-slow object-contain h-48 w-96 ml-10 mt-10 drop-shadow-4xl" src={React} />
+                    <img className="object-contain h-48 w-96 ml-10 mt-20 drop-shadow-4xl" src={node} />
+                    <img className="object-contain h-32 w-72 ml-10 mt-20 drop-shadow-4xl" src={tailwind} />
+                    <img className="object-contain h-48 w-96 ml-10 mt-20 drop-shadow-4xl" src={mongodb} />
+                    <img className="object-contain h-48 w-96 ml-10 mt-20 drop-shadow-4xl" src={aws} />
                 </div>
             </div>
         </div>

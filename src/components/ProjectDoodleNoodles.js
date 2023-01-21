@@ -10,9 +10,9 @@ export default function ProjectDoodleNoodles() {
             <div className="flex justify-center mr-10 ml-10" data-aos="flip-left" data-aos-duration="1700" data-aos-delay="1000" data-aos-once='true'>
                 <div className="rounded-lg bg-white max-w-sm drop-shadow-4xl max-sm:w-72">
                     <a href="https://www.doodlenoodles.io" rel='noreferrer' target='blank'>
-                        <img class="rounded-t-lg h-52" src={OneTreePlanted} alt="" />
+                        <img className="rounded-t-lg h-52" src={OneTreePlanted} alt="" />
                     </a>
-                    <div class="p-6">
+                    <div className="p-6">
                         <h5 className="text-gray-900 text-xl font-medium mb-2">www.doodlenoodles.io</h5>
                         <p className="text-gray-700 text-base mb-4">
                             3333 NFTs on the blockchain. Own brand Ramen & Merch. Up to 9999 trees planted
