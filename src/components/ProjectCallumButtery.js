@@ -7,7 +7,7 @@ import TailwindTag from './tag/TailwindTag'
 export default function ProjectCallumButtery() {
     return (
         <div className="max-sm:h-96 max-sm:mb-32 hover:scale-110 hover:duration-300 ">
-            <div className="flex justify-center mr-10 ml-10" data-aos="flip-left" data-aos-duration="1700" data-aos-delay="0" data-aos-once='true'>
+            <div className="flex justify-center mr-10 ml-10">
                 <div className="rounded-lg bg-white max-w-sm drop-shadow-4xl max-sm:w-72">
                     <a rel='noreferrer' target='blank'>
                         <img className="rounded-t-lg h-52" src={callumdev} alt="" />

@@ -14,7 +14,7 @@ import aws from '../images/aws.png'
 export default function Projects() {
     return (
         <div className='h-full pt-48 place-items-center bg-gradient-to-b from-[#00a0c2] via-[#c48f95] to-[#e06f43] max-sm:h-full'>
-            <h2 data-aos="fade-down" data-aos-duration="2000" data-aos-delay="700" className="flex justify-center text-center text-4xl tracking-[.35em] text-white font-header font-bold w-4/6 mx-auto max-sm:text-3xl max-sm:tracking-[.1em]">
+            <h2 className="flex justify-center text-center text-4xl tracking-[.35em] text-white font-header font-bold w-4/6 mx-auto max-sm:text-3xl max-sm:tracking-[.1em]">
                 PROJECTS
             </h2>
             <div className="place-items-center pt-16 flex justify-center max-sm:inline-block">
@@ -27,7 +27,7 @@ export default function Projects() {
 
 
             <div className="pt-52">
-                <h2 data-aos="fade-down" data-aos-duration="2000" className="flex justify-center text-center text-5xl tracking-[.25em] text-white font-header font-bold w-4/6 mx-auto max-sm:text-3xl max-sm:tracking-[.1em]">
+                <h2 className="flex justify-center text-center text-5xl tracking-[.25em] text-white font-header font-bold w-4/6 mx-auto max-sm:text-3xl max-sm:tracking-[.1em]">
                     TECH EXPOSURE
                 </h2>
 
