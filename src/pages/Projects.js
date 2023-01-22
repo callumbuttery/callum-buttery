@@ -3,13 +3,13 @@ import ProjectButteryPhotography from "../components/ProjectButteryPhotography"
 import ProjectCallumButtery from "../components/ProjectCallumButtery"
 import ScrollAnimator from "../components/scrollAnimator"
 
-import JS from '../images/javascript.png'
-import React from '../images/react.png'
-import vue from '../images/vue.png'
-import node from '../images/node.png'
-import tailwind from '../images/tailwind.png'
-import mongodb from '../images/mongodb.png'
-import aws from '../images/aws.png'
+import JS from '../images/javascript.webp'
+import React from '../images/react.webp'
+import vue from '../images/vue.webp'
+import node from '../images/node.webp'
+import tailwind from '../images/tailwind.webp'
+import mongodb from '../images/mongodb.webp'
+import aws from '../images/aws.webp'
 
 export default function Projects() {
     return (

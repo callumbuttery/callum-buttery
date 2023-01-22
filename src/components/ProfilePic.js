@@ -1,4 +1,4 @@
-import picture from '../images/picture.jpeg'
+import picture from '../images/picture.webp'
 
 export default function profilePicture() {
 

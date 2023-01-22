@@ -1,4 +1,4 @@
-import OneTreePlanted from '../images/OneTreePlanted.png'
+import OneTreePlanted from '../images/OneTreePlanted.webp'
 
 import ReactTag from './tag/ReactTag'
 import JavaScriptTag from './tag/JavascriptTag'

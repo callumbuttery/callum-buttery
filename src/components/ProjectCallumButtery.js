@@ -1,4 +1,4 @@
-import callumdev from '../images/callumdev.JPG'
+import callumdev from '../images/callumdev.webp'
 
 import ReactTag from './tag/ReactTag'
 import JavaScriptTag from './tag/JavascriptTag'

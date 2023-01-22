@@ -1,4 +1,4 @@
-import butteryphotography from '../images/butteryphotography.JPG'
+import butteryphotography from '../images/butteryphotography.webp'
 
 import VueTag from './tag/VueTag'
 import JavaScriptTag from './tag/JavascriptTag'
