@@ -11,22 +11,22 @@ export default function Timeline() {
                     </div>
                     <div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
                         <div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:bg-white">
-                            <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-[#00a0c2]">
+                            <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500" className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-[#00a0c2]">
                                 <h3 className="text-xl text-white font-semibold tracking-wide">Raytheon UK</h3>
                                 <time className="text-xs tracking-wide uppercase">Dec 2022 - Current</time>
                                 <p className="mt-1">Full Stack Software Engineer</p>
                             </div>
-                            <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-[#00a0c2]">
+                            <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000" className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-[#00a0c2]">
                                 <h3 className="text-xl text-white font-semibold tracking-wide">Odro LTD</h3>
                                 <time className="text-xs tracking-wide uppercase">Jan 2021 - Dec 2022</time>
                                 <p className="mt-1">Junior software engineer - Working with Vue.js / JS / Node.js / MongoDB</p>
                             </div>
-                            <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-[#00a0c2]">
+                            <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1500" className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-[#00a0c2]">
                                 <h3 className="text-xl text-white font-semibold tracking-wide">Edinburgh Napier University</h3>
                                 <time className="text-xs tracking-wide uppercase">Jun 2018 - May 2021</time>
                                 <p className="mt-1">BEng Software Engineering - Graduated with 1st Class Honours</p>
                             </div>
-                            <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-[#00a0c2]">
+                            <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1750" className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-[#00a0c2]">
                                 <h3 className="text-xl text-white font-semibold tracking-wide">Glasgow Clyde College</h3>
                                 <time className="text-xs tracking-wide uppercase">Jan 2018 - Jun 2018</time>
                                 <p className="mt-1">HNC Computing - Graduated with an A</p>
