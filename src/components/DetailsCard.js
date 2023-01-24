@@ -3,7 +3,7 @@ import Icon from '@mdi/react';
 
 export default function DetailsCard() {
     return (
-        <div className="w-3/4 mx-auto mt-8 shadow-lg flex justify-center bg-white drop-shadow-3xl rounded-2xl">
+        <div className="w-2/4 mx-auto mt-8 shadow-lg flex justify-center bg-white drop-shadow-3xl rounded-2xl">
             <div className="px-6 py-4">
                 <div className="font-bold text-4xl mb-2 flex justify-center">Howdy!</div>
                 <p className="text-gray-700 text-center text-xl mt-10">
