@@ -10,11 +10,11 @@ export default function About() {
                 <div className="pt-48 pb-48">
                     <ProfilePic />
                     <DetailsCard />
+                    <ScrollAnimator />
                 </div>
             </div>
             <div className="h-full bg-[url('images/aboutwallpaper2.jpg')] bg-no-repeat bg-cover bg-center bg-fixed">
                 <div className="pt-48 pb-32">
-                    <ScrollAnimator />
                     <Timeline />
                 </div>
             </div>
