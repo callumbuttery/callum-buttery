@@ -1,7 +1,7 @@
 export default function Timeline() {
     return (
         <section className="pt-32">
-            <div className="container max-w-5xl px-4 py-12 mx-auto">
+            <div className="container max-w-5xl px-4 py-12 mx-auto backdrop-blur-sm drop-shadow-3xl rounded-2xl border-solid border-2 border-white"  data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
                 <div className="grid gap-10 mx-4 sm:grid-cols-12">
                     <div className="col-span-12 sm:col-span-3">
                         <div className="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-[#00a0c2]">
