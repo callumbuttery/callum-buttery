@@ -2,7 +2,7 @@ import cv from '../files/cv.pdf'
 
 export default function CV() {
     return (
-        <div className="h-screen pt-32 pb-10 place-items-center h-screen bg-[url('images/desk2.jpg')] bg-no-repeat bg-cover bg-center bg-fixed">
+        <div className="h-screen pt-32 pb-10 place-items-center h-screen bg-[url('images/desk2.webp')] bg-no-repeat bg-cover bg-center bg-fixed">
             <div className='container max-w-3xl mx-auto'>
                 <button href='' onClick={() => window.open(cv)} className="mt-52 max-w-32 animate-pulse bg-transparent py-2 px-3 pl-6 text-center flex justify-center text-center text-5xl tracking-[.35em] text-sky-500 font-header font-bold  mx-auto max-sm:text-4xl max-sm:tracking-[.1em]">
                     Open in tab
