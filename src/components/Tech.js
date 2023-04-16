@@ -5,7 +5,8 @@ import vue from '../images/vue.webp'
 import node from '../images/node.webp'
 import tailwind from '../images/tailwind.webp'
 import mongodb from '../images/mongodb.webp'
-import aws from '../images/aws.webp'
+import aws from '../images/aws.png'
+import python from '../images/python.png'
 
 export default function Tech() {
     return (
@@ -17,7 +18,8 @@ export default function Tech() {
             <a href="https://nodejs.org/en/" rel='noreferrer' target='blank'><img className="object-contain h-48 w-96 ml-10 mt-20 drop-shadow-4xl hover:scale-110 hover:duration-300" src={node} alt='Node.js' /></a>
             <a href="https://tailwindcss.com/" rel='noreferrer' target='blank'><img className="object-contain h-32 w-72 ml-10 mt-20 drop-shadow-4xl hover:scale-110 hover:duration-300 " src={tailwind} alt='Tailwindcss' /></a>
             <a href="https://www.mongodb.com/" rel="noreferrer" target="blank"><img className="object-contain h-48 w-96 ml-10 mt-20 drop-shadow-4xl hover:scale-110 hover:duration-300" src={mongodb} alt='MongoDB' /></a>
-            <a href="https://aws.amazon.com/s3/" rel="noreferrer" target="blank"><img className="object-contain h-48 w-96 ml-10 mt-20 drop-shadow-4xl hover:scale-110 hover:duration-300" src={aws} alt='Aws S3' /></a>
+            <a href="https://aws.amazon.com" rel="noreferrer" target="blank"><img className="object-contain h-48 w-96 ml-10 mt-20 drop-shadow-4xl hover:scale-110 hover:duration-300" src={aws} alt='Aws S3' /></a>
+            <a href="https://www.python.org/" rel="noreferrer" target="blank"><img className="object-contain h-48 w-96 ml-10 mt-20 drop-shadow-4xl hover:scale-110 hover:duration-300" src={python} alt='Python' /></a>
         </div>
     )
 }
