@@ -29,23 +29,33 @@ module.exports = {
             {
                 test: /\.(png|jpg|webp|gif|svg|mp4|pdf)$/,
                 use: [{
-                        loader: 'file-loader',
-                        options: {
-                            name: '[path][name].[ext]?[hash]',
-                            context: 'myApp',
-                            publicPath: '/myApp',
-                            useRelativePath: true,
-                            emitFile: false
-                        }
-                    },
-                    {
-                        loader: 'webp-loader'
+                    loader: 'file-loader',
+                    options: {
+                        name: '[path][name].[ext]?[hash]',
+                        context: 'myApp',
+                        publicPath: '/myApp',
+                        useRelativePath: true,
+                        emitFile: false
                     }
+                },
+                {
+                    loader: 'webp-loader'
+                }
                 ]
             }
 
         ],
     },
+    plugins: [
+        new webpack.optimize.UglifyJsPlugin(),
+        // New plugin
+        new HtmlWebpackPlugin({
+            // injects bundle.js to our new index.html
+            inject: true,
+            // copys the content of the existing index.html to the new /build index.html
+            template: path.resolve('./index.html'),
+        }),
+    ],
     // pass all js files through Babel
     resolve: {
         extensions: ["*", ".js", ".jsx", ".webp"],    // <-- added `.jsx` here
