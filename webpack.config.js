@@ -3,6 +3,7 @@
 const path = require("path");
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
     entry: "./src/index.js",
@@ -49,7 +50,6 @@ module.exports = {
         ],
     },
     plugins: [
-        new webpack.optimize.UglifyJsPlugin(),
         // New plugin
         new HtmlWebpackPlugin({
             // injects bundle.js to our new index.html
@@ -61,6 +61,10 @@ module.exports = {
     // pass all js files through Babel
     resolve: {
         extensions: ["*", ".js", ".jsx", ".webp"],    // <-- added `.jsx` here
+    },
+    optimization: {
+        minimize: true,
+        minimizer: [new TerserPlugin()],
     },
 
 };
