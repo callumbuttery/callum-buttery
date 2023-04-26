@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
-    entry: "./public/index.html",
+    entry: "./src/index.js",
     output: {
         filename: "main.js",
         path: path.resolve(__dirname, "build"),
@@ -34,8 +34,8 @@ module.exports = {
                     loader: 'file-loader',
                     options: {
                         name: '[path][name].[ext]?[hash]',
-                        context: 'myApp',
-                        publicPath: '/myApp',
+                        context: 'App',
+                        publicPath: '/App',
                         useRelativePath: true,
                         emitFile: false
                     }
