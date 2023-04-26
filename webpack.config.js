@@ -50,12 +50,7 @@ module.exports = {
     },
     plugins: [
         // New plugin
-        new HtmlWebpackPlugin({
-            // injects bundle.js to our new index.html
-            inject: true,
-            // copys the content of the existing index.html to the new /build index.html
-            template: path.resolve('./public/index.html'),
-        }),
+        new HtmlWebpackPlugin(),
         new webpack.ProvidePlugin({
             "React": "react",
          }),
