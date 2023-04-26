@@ -11,7 +11,9 @@ module.exports = {
         filename: "main.js",
         path: path.resolve(__dirname, "build"),
     },
-
+    externals: {
+        'react': 'React'
+    },
     module: {
         // exclude node_modules
         rules: [
