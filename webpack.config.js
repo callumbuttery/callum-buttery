@@ -11,9 +11,6 @@ module.exports = {
         filename: "main.js",
         path: path.resolve(__dirname, "build"),
     },
-    externals: {
-        'react': 'React'
-    },
     module: {
         // exclude node_modules
         rules: [
@@ -59,6 +56,9 @@ module.exports = {
             // copys the content of the existing index.html to the new /build index.html
             template: path.resolve('./public/index.html'),
         }),
+        new webpack.ProvidePlugin({
+            "React": "react",
+         }),
     ],
     // pass all js files through Babel
     resolve: {
