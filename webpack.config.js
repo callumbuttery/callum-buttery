@@ -60,7 +60,7 @@ module.exports = {
     ],
     // pass all js files through Babel
     resolve: {
-        extensions: [".*",".js  ",".jsx",".webp"],    // <-- added `.jsx` here
+        extensions: [".*",".js",".jsx",".webp",".ts"],    // <-- added `.jsx` here
     },
     optimization: {
         minimize: true,
