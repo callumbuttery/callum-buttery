@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
-    entry: "./src/index.js",
+    entry: "./public/index.html",
     output: {
         filename: "main.js",
         path: path.resolve(__dirname, "build"),
