@@ -1,11 +1,9 @@
-import './App.css';
 import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Projects from './pages/Projects.js';
 import CV from './pages/CV.js';
 import NavBar from './components/Navbar';
 
-import { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {

@@ -2,9 +2,7 @@ import ProjectDoodleNoodles from "../components/ProjectDoodleNoodles"
 import ProjectButteryPhotography from "../components/ProjectButteryPhotography"
 import ProjectCallumButtery from "../components/ProjectCallumButtery"
 import ScrollAnimator from "../components/scrollAnimator"
-import { lazy } from 'react';
-const Tech = lazy(() => import('../components/Tech'));
-
+import Tech from "../components/Tech"
 
 export default function Projects() {
     return (
