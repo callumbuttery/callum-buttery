@@ -2,9 +2,10 @@ import ProjectDoodleNoodles from "../components/ProjectDoodleNoodles"
 import ProjectButteryPhotography from "../components/ProjectButteryPhotography"
 import ProjectCallumButtery from "../components/ProjectCallumButtery"
 import ScrollAnimator from "../components/scrollAnimator"
-import Tech from "../components/Tech"
 
 export default function Projects() {
+    const Tech = React.lazy(() => import('../components/Tech'));
+
     return (
         <div className='h-full pt-48 place-items-center bg-gradient-to-b from-black to-white max-sm:h-full'>
             <h2 className="flex justify-center text-center text-4xl tracking-[.35em] text-white font-header font-bold w-4/6 mx-auto max-sm:text-3xl max-sm:tracking-[.1em]">
