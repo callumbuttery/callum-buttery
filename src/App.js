@@ -4,16 +4,11 @@ import About from './pages/About.js';
 import Projects from './pages/Projects.js';
 import CV from './pages/CV.js';
 import NavBar from './components/Navbar';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 import { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {
-
-  useEffect(() => {
-    setTimeout(function () { AOS.init(); }, 1000);
-  }, [])
 
   return (
     <div>
