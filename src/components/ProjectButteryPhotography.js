@@ -17,7 +17,7 @@ export default function ProjectButteryPhotography() {
                         <p className="text-gray-700 text-base mb-4">
                             A site for my Freelance Wedding Photography business
                         </p>
-                        <div className='flex mb-5'>
+                        <div className='flex flex-wrap mb-5'>
                             <VueTag/>
                             <VuetifyTag/>
                             <JavaScriptTag/>

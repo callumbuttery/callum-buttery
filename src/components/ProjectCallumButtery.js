@@ -17,7 +17,7 @@ export default function ProjectCallumButtery() {
                         <p className="text-gray-700 text-base mb-4">
                             The very site you are on! All things about my career and my hobbies!
                         </p>
-                        <div className='flex mb-5 w-10'>
+                        <div className='flex flex-wrap mb-5'>
                             <ReactTag/>
                             <TailwindTag/>
                             <JavaScriptTag/>
