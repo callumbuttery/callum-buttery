@@ -6,7 +6,7 @@ import VuetifyTag from '../tag/VuetifyTag'
 
 export default function ProjectButteryPhotography() {
     return (
-        <div className="max-sm:h-96 max-sm:max-w-48 max-sm:ml-10 max-sm:mb-32 hover:scale-110 hover:duration-300">
+        <div className="max-sm:h-96 max-sm:max-w-32 max-sm:mb-32 max-sm:mr-4 hover:scale-110 hover:duration-300">
             <div className="flex justify-center mr-10 ml-10">
                 <div className="rounded-lg bg-white max-w-sm drop-shadow-4xl max-sm:w-72">
                     <a href="https://www.butteryphotography.co.uk" rel='noreferrer' target='blank'>
