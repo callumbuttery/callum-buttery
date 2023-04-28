@@ -13,8 +13,8 @@ export default function ProjectCallumButtery() {
                         <img className="rounded-t-lg h-52" src={callumdev} alt="" />
                     </a>
                     <div className="p-6">
-                        <h5 className="text-gray-900 text-xl font-medium mb-2">www.callumbuttery.dev</h5>
-                        <p className="text-gray-700 text-base mb-4">
+                        <h5 className="text-gray-900 text-xl font-medium mb-2 max-sm:text-sm">www.callumbuttery.dev</h5>
+                        <p className="text-gray-700 text-base mb-4 max-sm:text-sm">
                             The very site you are on! All things about my career and my hobbies!
                         </p>
                         <div className='flex flex-wrap mb-5'>

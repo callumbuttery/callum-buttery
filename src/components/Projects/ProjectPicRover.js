@@ -15,8 +15,8 @@ export default function ProjectButteryPhotography() {
                         <img className="rounded-t-lg h-52 w-full" src={picrover} alt="" />
                     </a>
                     <div className="p-6">
-                        <h5 className="text-gray-900 text-xl font-medium mb-2">www.picrover.co.uk - COMING SOON!</h5>
-                        <p className="text-gray-700 text-base mb-4">
+                        <h5 className="text-gray-900 text-xl font-medium mb-2 max-sm:text-sm">www.picrover.co.uk - COMING SOON!</h5>
+                        <p className="text-gray-700 text-base mb-4 max-sm:text-sm">
                             A site for finding picture locations
                         </p>
                         <div className='flex flex-wrap mb-5'>

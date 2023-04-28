@@ -13,8 +13,8 @@ export default function ProjectDoodleNoodles() {
                         <img className="rounded-t-lg h-44" src={OneTreePlanted} alt="" />
                     </a>
                     <div className="p-6">
-                        <h5 className="text-gray-900 text-xl font-medium mb-2">www.doodlenoodles.io</h5>
-                        <p className="text-gray-700 text-base mb-4">
+                        <h5 className="text-gray-900 text-xl font-medium mb-2 max-sm:text-sm">www.doodlenoodles.io</h5>
+                        <p className="text-gray-700 text-base mb-4 max-sm:text-sm">
                             3333 NFTs on the blockchain. Own brand Ramen & Merch. Up to 9999 trees planted
                         </p>
                         <div className='flex flex-wrap mb-5'>
