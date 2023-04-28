@@ -10,7 +10,7 @@ import python from '../images/python.png'
 
 export default function Tech() {
     return (
-        <div className="place-items-center pt-16 pb-32 max-w-fit flex-wrap mx-auto max-sm:ml-16 flex justify-center max-sm:inline-block">
+        <div className="place-items-center pt-16 pb-32 max-w-fit flex-wrap mx-auto max-sm:ml-8 flex justify-center max-sm:inline-block">
             <a href="https://www.javascript.com/" rel='noreferrer' target='blank'><img className="object-contain h-48 w-64 ml-10 mt-10 drop-shadow-4xl hover:scale-110 hover:duration-300" src={JS} alt='Javascript' /></a>
             <a href="https://www.typescriptlang.org/" rel='noreferrer' target='blank'><img className="object-contain h-48 w-64 ml-10 mt-10 drop-shadow-4xl hover:scale-110 hover:duration-300" src={TS} alt='Typescript' /></a>
             <a href="https://vuejs.org/" rel='noreferrer' target='blank'><img className="object-contain h-48 w-64 ml-10 mt-10 drop-shadow-4xl hover:scale-110 hover:duration-300" src={vue} alt='Vue.js' /></a>
