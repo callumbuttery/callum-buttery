@@ -6,7 +6,7 @@ import Tech from "../components/Tech"
 
 export default function Projects() {
     return (
-        <div className='h-full pt-48 place-items-center bg-gradient-to-b from-black to-blue-500 max-sm:h-full'>
+        <div className='h-full pt-48 place-items-center bg-gradient-to-b bg-gradient-to-t from-gray-700 via-gray-900 to-black max-sm:h-full'>
             <h2 className="flex justify-center text-center text-4xl tracking-[.35em] text-white font-header font-bold w-4/6 mx-auto max-sm:text-3xl max-sm:tracking-[.1em]">
                 PROJECTS
             </h2>
