@@ -26,7 +26,7 @@ export default function Timeline() {
                                 <time className="text-lg tracking-wide uppercase text-gray-200">Jun 2018 - May 2021</time>
                                 <p className="mt-1 text-white">BEng Software Engineering - Graduated with 1st Class Honours</p>
                             </div>
-                            <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-[#00a0c2]">
+                            <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="2000" className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-[#00a0c2]">
                                 <h3 className="text-2xl text-white font-semibold tracking-wide">Glasgow Clyde College</h3>
                                 <time className="text-lg tracking-wide uppercase text-gray-200">Jan 2018 - Jun 2018</time>
                                 <p className="mt-1 text-white">HNC Computing - Graduated with an A</p>
