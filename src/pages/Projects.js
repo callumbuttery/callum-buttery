@@ -1,6 +1,6 @@
-import ProjectDoodleNoodles from "../components/ProjectDoodleNoodles"
-import ProjectButteryPhotography from "../components/ProjectButteryPhotography"
-import ProjectCallumButtery from "../components/ProjectCallumButtery"
+import ProjectDoodleNoodles from "../components/Projects/ProjectDoodleNoodles"
+import ProjectButteryPhotography from "../components/Projects/ProjectButteryPhotography"
+import ProjectCallumButtery from "../components/Projects/ProjectCallumButtery"
 import ScrollAnimator from "../components/scrollAnimator"
 import Tech from "../components/Tech"
 

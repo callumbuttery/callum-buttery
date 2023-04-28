@@ -1,8 +1,8 @@
-import butteryphotography from '../images/butteryphotography.webp'
+import butteryphotography from '../../images/butteryphotography.webp'
 
-import VueTag from './tag/VueTag'
-import JavaScriptTag from './tag/JavascriptTag'
-import VuetifyTag from './tag/VuetifyTag'
+import VueTag from '../tag/VueTag'
+import JavaScriptTag from '../tag/JavascriptTag'
+import VuetifyTag from '../tag/VuetifyTag'
 
 export default function ProjectButteryPhotography() {
     return (

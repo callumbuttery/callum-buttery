@@ -1,8 +1,8 @@
-import OneTreePlanted from '../images/OneTreePlanted.webp'
+import OneTreePlanted from '../../images/OneTreePlanted.webp'
 
-import ReactTag from './tag/ReactTag'
-import JavaScriptTag from './tag/JavascriptTag'
-import BootstrapTag from './tag/BootstrapTag'
+import ReactTag from '../tag/ReactTag'
+import JavaScriptTag from '../tag/JavascriptTag'
+import BootstrapTag from '../tag/BootstrapTag'
 
 export default function ProjectDoodleNoodles() {
     return (

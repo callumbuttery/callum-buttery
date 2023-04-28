@@ -1,8 +1,8 @@
-import callumdev from '../images/callumdev.webp'
+import callumdev from '../../images/callumdev.webp'
 
-import ReactTag from './tag/ReactTag'
-import JavaScriptTag from './tag/JavascriptTag'
-import TailwindTag from './tag/TailwindTag'
+import ReactTag from '../tag/ReactTag'
+import JavaScriptTag from '../tag/JavascriptTag'
+import TailwindTag from '../tag/TailwindTag'
 
 export default function ProjectCallumButtery() {
     return (
