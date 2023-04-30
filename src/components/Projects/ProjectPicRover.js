@@ -5,6 +5,7 @@ import TypescriptTag from '../tag/TypescriptTag'
 import TailwindTag from '../tag/TailwindTag'
 import AwsTag from '../tag/AwsTag'
 import GraphqlTag from '../tag/GraphqlTag'
+import GoogleMapsTag from '../tag/GoogleMapsTag'
 
 export default function ProjectButteryPhotography() {
     return (
@@ -25,6 +26,7 @@ export default function ProjectButteryPhotography() {
                             <TailwindTag/>
                             <AwsTag/>
                             <GraphqlTag/>
+                            <GoogleMapsTag/>
                         </div>
                         <a disabled href="" rel='noreferrer' target='blank' type="button" className="inline-block px-6 py-2.5 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded">View</a>
                     </div>
