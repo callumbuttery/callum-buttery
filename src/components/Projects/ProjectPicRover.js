@@ -1,7 +1,7 @@
 import picrover from '../../images/picrover.jpg'
 
 import ReactTag from '../tag/ReactTag'
-import JavaScriptTag from '../tag/JavascriptTag'
+import TypescriptTag from '../tag/TypescriptTag'
 import TailwindTag from '../tag/TailwindTag'
 import AwsTag from '../tag/AwsTag'
 import GraphqlTag from '../tag/GraphqlTag'
@@ -17,12 +17,12 @@ export default function ProjectButteryPhotography() {
                     <div className="p-6">
                         <h5 className="text-gray-900 text-xl font-medium mb-2 max-sm:text-sm">www.picrover.co.uk - COMING SOON!</h5>
                         <p className="text-gray-700 text-base mb-4 max-sm:text-sm">
-                            A site for finding picture locations
+                            A site for mapping picture locations
                         </p>
                         <div className='flex flex-wrap mb-5'>
                             <ReactTag/>
+                            <TypescriptTag/>
                             <TailwindTag/>
-                            <JavaScriptTag/>
                             <AwsTag/>
                             <GraphqlTag/>
                         </div>
