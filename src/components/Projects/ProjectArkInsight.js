@@ -1,10 +1,9 @@
-import picrover from '../../images/picrover.jpg'
+import picrover from '../../images/arkinsight.PNG'
 
 import ReactTag from '../tag/ReactTag'
 import TypescriptTag from '../tag/TypescriptTag'
 import TailwindTag from '../tag/TailwindTag'
 import AwsTag from '../tag/AwsTag'
-import GraphqlTag from '../tag/GraphqlTag'
 import GoogleMapsTag from '../tag/GoogleMapsTag'
 
 export default function ProjectButteryPhotography() {
@@ -16,16 +15,15 @@ export default function ProjectButteryPhotography() {
                         <img className="rounded-t-lg h-52 w-full" src={picrover} alt="" />
                     </a>
                     <div className="p-6">
-                        <h5 className="text-gray-900 text-xl font-medium mb-2 max-sm:text-sm">www.picrover.co.uk - COMING SOON!</h5>
+                        <h5 className="text-gray-900 text-xl font-medium mb-2 max-sm:text-sm">www.arkinsight.co.uk - COMING SOON!</h5>
                         <p className="text-gray-700 text-base mb-4 max-sm:text-sm">
-                            A site for mapping picture locations
+                            A site promoting endangered animal conservation
                         </p>
                         <div className='flex flex-wrap mb-5'>
                             <ReactTag/>
                             <TypescriptTag/>
                             <TailwindTag/>
                             <AwsTag/>
-                            <GraphqlTag/>
                             <GoogleMapsTag/>
                         </div>
                         <a disabled href="" rel='noreferrer' target='blank' type="button" className="inline-block px-6 py-2.5 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded">View</a>
