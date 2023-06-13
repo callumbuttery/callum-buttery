@@ -14,7 +14,7 @@ export default function Timeline() {
                             <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500" className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-[#00a0c2]">
                                 <h3 className="text-2xl text-white font-semibold tracking-wide ">Raytheon UK</h3>
                                 <time className="text-lg tracking-wide uppercase text-gray-200">Dec 2022 - Current</time>
-                                <p className="mt-1 text-white max-sm:text-xs max-sm:w-52">Full Stack Software Engineer</p>
+                                <p className="mt-1 text-white max-sm:text-xs max-sm:w-52">Cloud Engineer - AWS / Typescript / Python / Node.js</p>
                             </div>
                             <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000" className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-[#00a0c2]">
                                 <h3 className="text-2xl text-white font-semibold tracking-wide">Odro LTD</h3>
