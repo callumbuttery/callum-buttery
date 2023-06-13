@@ -2,6 +2,7 @@ import ProjectDoodleNoodles from "../components/Projects/ProjectDoodleNoodles"
 import ProjectButteryPhotography from "../components/Projects/ProjectButteryPhotography"
 import ProjectCallumButtery from "../components/Projects/ProjectCallumButtery"
 import ProjectArkInsight from "../components/Projects/ProjectArkInsight"
+import ProjectChairity from "../components/Projects/ProjectCharity"
 import ScrollAnimator from "../components/scrollAnimator"
 import Tech from "../components/Tech"
 
@@ -15,6 +16,7 @@ export default function Projects() {
                 <ProjectCallumButtery />
                 <ProjectButteryPhotography />
                 <ProjectDoodleNoodles />
+                <ProjectChairity />
                 <ProjectArkInsight />
             </div>
 
